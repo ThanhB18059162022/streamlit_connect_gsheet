@@ -4,6 +4,8 @@
 - https://github.com/Sven-Bo/google-sheets-data-entry-form-with-streamlit.git
 - https://docs.streamlit.io/get-started/installation
 - https://github.com/streamlit/gsheets-connection
+- streamlit run demo_connect_public_gsheet.py
+- streamlit run streamlit_app.py
 
 - Go to your spreadsheet and share it with a client_email from the step above. Just like you do with any other Google account. If you don’t do this, you’ll get a gspread.exceptions.SpreadsheetNotFound exception when trying to access this spreadsheet from your application or a script.
 - Inside streamlit/secrets.toml place service_account configuration from downloaded JSON file, in the following format (where gsheets is your st.connection name)
